@@ -1,0 +1,23 @@
+.sidebar-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-item span {
+    transition: width 0.3s ease;
+  }
+  
+  .group-hover\:visible {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .main-background {
+    background-image: url(/public/logo.png),
+  }
+
+    .box {
+      overflow: auto;
+      /* border: 1px solid #ccc;  */
+      padding: 10px;
+    }
